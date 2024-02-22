@@ -16,7 +16,7 @@ public class LetraDNI {
         }while(dni < 1);
         System.out.println("Letra dni -> " + obtenerLetraDNI(dni));                                               
     }
-    public static char obtenerLetraDNI(int dni) {
+    public static char obtenerLetraDNI(int dni) { 
         char[] letras = {'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X',
                          'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};                             
         return letras[dni % 23];
